@@ -1,0 +1,21 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "learning",
+  "license": "ISC",
+  "author": "jenish",
+  "type": "commonjs",
+  
+  "scripts": {
+    "test": "jest",
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
